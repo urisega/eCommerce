@@ -27,17 +27,11 @@ function NavBar() {
             <Nav.Link href="#link">Buscar</Nav.Link>
             <Nav.Link to="/carrito">Detalle</Nav.Link>
             <Nav.Link href="#link">Confirmación</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Opcion1</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.1">Opcion2</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+            <NavDropdown title="Categorias" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/category/1">Remeras</NavDropdown.Item>
+              <NavDropdown.Item href="/category/2">Buzos</NavDropdown.Item>
+              <NavDropdown.Item href="category/3">Pantalones</NavDropdown.Item>
+              
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
