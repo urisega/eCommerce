@@ -1,3 +1,4 @@
+/*
 const productos = [
     {
       id: '1',
@@ -13,7 +14,7 @@ const productos = [
       description: 'Pantalon de Jean',
       price: 19.99,
       stock: 50,
-      category:'2',
+      category:'3',
     },
     {
       id: '3',
@@ -24,7 +25,7 @@ const productos = [
       category:'1',
     },
   ];
-
+*/
 
 
 export const getProductos = () =>{
@@ -46,10 +47,9 @@ export const getProductoById = (productId) =>{
 }
 
 export const getProductosByCategory = (producategoryId) =>{
-  console.log("entra al getcategory, ", producategoryId);
   return new Promise((resolve) => {
       setTimeout(() =>{
-          resolve(productos.find(prod =>prod.category === producategoryId))
+          resolve(productos.filter(prod =>prod.category === producategoryId))
       }, 500)
   })
 }

@@ -12,7 +12,9 @@ import ComponentWithRouteParams from './components/ComponentWithRouteParams'
 import {CartProvider} from './components/CartContext'
 
 function App() {
+
   const [data, setData] = useState([])
+
   return (
     <>
      <div className="App">

@@ -6,3 +6,11 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+//Para correr el proyecto:
+npm run dev
+
+
+El proyecto consiste en un ecommerce de productos de indumentaria. El objetivo es, a medida que se van agregando los productos al carrito, poder guardar los items en el mismo.

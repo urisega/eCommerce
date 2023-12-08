@@ -9,7 +9,7 @@ const ListItem = ({producto}) => {
     <h5>Precio: {price}</h5>
     <p>Descripcion: {description}</p>
     <footer>
-      <Link to={'/item/${id}'}>Ver Detalle</Link>
+      <Link to={`/item/${id}`}>Ver Detalle</Link>
     </footer>
     </div>
   )

@@ -30,7 +30,7 @@ function NavBar() {
             <NavDropdown title="Categorias" id="basic-nav-dropdown">
               <NavDropdown.Item href="/category/1">Remeras</NavDropdown.Item>
               <NavDropdown.Item href="/category/2">Buzos</NavDropdown.Item>
-              <NavDropdown.Item href="category/3">Pantalones</NavDropdown.Item>
+              <NavDropdown.Item href="/category/3">Pantalones</NavDropdown.Item>
               
             </NavDropdown>
           </Nav>
